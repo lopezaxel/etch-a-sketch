@@ -1,1 +1,1 @@
-This is a Etch-A-Sketch program, a project from The Project Odin.
+This is a Etch-A-Sketch program, a project from The Odin Project.
