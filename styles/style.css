@@ -1,0 +1,11 @@
+#gridContainer {
+  display: grid;
+  grid-template-columns: repeat(16, 32px);
+  width: 960px;
+  margin: 3em 0 0 auto;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+}
