@@ -5,7 +5,6 @@ function createGrids(gridSize = 16) {
     for(let i = 1; i <= gridSize; i++) {
       let gridDiv = document.createElement('div');
       gridDiv.classList.add('gridDiv');
-      gridDiv.setAttribute('style', 'border: lightgray 1px solid;')
       gridContainer.appendChild(gridDiv);
     }
   }
@@ -22,7 +21,6 @@ function changeColor() {
   let squareDivs = document.querySelectorAll('.gridDiv');
   squareDivs.forEach((gridSquare) => {
     gridSquare.addEventListener('mouseover', (e) => {
-
       e.target.style.backgroundColor = colorRandom;
     });
   });
