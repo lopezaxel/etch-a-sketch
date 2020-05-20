@@ -1,11 +1,25 @@
 #gridContainer {
   display: grid;
-  
   width: 512px;
   height: 512px;
+  margin: 1.6em auto 0 auto;
+  background-color: white;
 }
 
 #header {
   display: flex;
   justify-content: center;
+  margin-top: 1em;
+}
+
+#button {
+  font-size: 1.4em;
+  border: 1px #aaaaaa solid;
+  border-radius: 5px;
+  width: 5em;
+  height: 1.5em;
+}
+
+body {
+  background-color: #f7f7f7;
 }

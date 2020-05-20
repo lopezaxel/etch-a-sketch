@@ -22,17 +22,17 @@ function changeColor() {
   let squareDivs = document.querySelectorAll('.gridDiv');
   squareDivs.forEach((gridSquare) => {
     gridSquare.addEventListener('mouseover', (e) => {
-      
-      e.target.style.backgroundColor = color;
+
+      e.target.style.backgroundColor = colorRandom;
     });
   });
 }
 
 function pickRandomColor() {
-  let color1 = Math.floor(Math.random() * 255);
-  let color2 = Math.floor(Math.random() * 255);
-  let color3 = Math.floor(Math.random() * 255);
-  return `rgb(${color1}, ${color2}, ${color3})`;
+  let color1 = Math.floor(Math.random() * 100);
+  let color2 = Math.floor(Math.random() * 100);
+  let color3 = Math.floor(Math.random() * 100);
+  return `hsl(${color1}, ${color2}%, ${color3}%)`;
 }
 
 function respondReset() {
