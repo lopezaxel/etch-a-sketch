@@ -4,6 +4,7 @@
   height: 512px;
   margin: 1.6em auto 0 auto;
   background-color: white;
+  border: 2px #aaaaaa solid;
 }
 
 #header {
